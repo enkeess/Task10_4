@@ -1,0 +1,226 @@
+test1:
+
+int main() {
+    int k = 5;
+    cinout << "Hello, world!" << endl;
+}
+
+test2:
+
+int x = 15;
+int main() {
+    x = 1;
+    cinout << x << endl;
+}
+
+test3: 
+
+int x = 15;
+int main() {
+    x = 1;
+    cinout << x << endl;
+
+    int i;
+    do {
+        i++;
+    } while(i < 15);
+}
+
+test4:
+
+int main() {
+    do {
+        int x = 15;
+        int pop = 15;
+    }   while(x-- > 0);
+}
+
+test5: 
+
+int main() {
+    int i;
+    for(i = 0; i < 5; i++) {}
+}
+
+test6:
+
+double x, y;
+//x = 5;
+int lol = 1;
+
+int main() {
+    x = x + y++ - lol;
+    cinout << x << endl;
+}
+
+test7 :
+
+double x, y;
+//x = 5;
+int lol = 1;
+
+int main() {
+    x = x + y++ - lol;
+    int i;
+    cinout << x << endl;
+    for(; ; ) {
+        for( i > 5; i < 5; ) {
+            i++;
+        }
+    }
+}
+
+test8: 
+
+int lol = 5;
+bool z;
+int main() {
+    //int y = 5 + 7;
+    //x = 0-x;
+    int x;
+    bool z, lol; 
+    
+    if(x > 3) {
+        double x = 3; 
+        }
+    else {lol = 5;}
+
+    int i;
+    while(i > 5) {
+        int k = 5;
+        bool name = 5;
+    }
+
+    {
+        int x = 5;
+    }
+
+    //bool z;
+    
+    int r = (true || false) && true;
+    {
+        bool z = 5;
+        double x = 10;
+    }
+}
+
+test9:
+
+int x;
+int main() {
+    int x;
+    do {
+        int x;
+        do{
+            int x;
+            do{
+                int x;
+                do{
+                int x;
+                } while(true);
+            } while(true);
+        } while(true);
+    } while(true);
+}
+
+
+test10; 
+
+int main() {
+    int x, y;
+
+    if(x > 5) {
+        {
+            int z;
+        }
+    } 
+}
+
+test11 :
+
+int a,b,c,d;
+
+int main() {
+    /*a = 1;
+    a = 1.5;
+    a = true;*/
+
+    //b = 1 + 5;
+    //b = (1 + 5) * 3;
+
+    c = 1 * 5;
+    c = 2 ^ 5;
+    c = (2*5) ^ a;
+}
+
+test12 :
+
+int a,b,c,d;
+int main() {
+    if( a = 5) {{int x;}}
+
+    //int x = a + c * c + q^ (true);
+    int mainy = 15.6 + 1;
+
+    b = c * d * d;
+    int r = 5;
+    cinout >> a << b++;
+}
+
+test13 :
+
+//int x = 5 , y , z = 5;
+int main() {
+    //int x = 5 , y , z = 5;
+    int x;
+
+    //x = 1 + 2 * 3;
+    //x = (1 + 2) * 3;
+    //x = 3 > 4 < 5 ;
+    //x = (((1 + 2 ) * 4 > 5) && false);
+    //x = 3 < (5 < 1) > 2;
+
+    //x = 4 < (6 < 2) > (3);
+    //x = 1 < 2 < 3 < 4 < 5 == 6 > 7;
+
+     //x = ((( 1 > 2) < (3-4)) > 5);
+}
+
+//x 1 2 3 * + =
+//x 12 + 3 * 
+//x 3 4 > 5 <
+//t=(((1+2)*4>5) and 6)
+
+//x = 3 < (5 < 1) > 2; +
+// 3 5 1 < < 2 > 
+
+//x = 3 > 4 < 5; +
+//x 3 4 > 5 < ; 
+
+//x = 1 < 2 < 3 < 4 < 5 == 6 > 7; +
+// 1 2 < 3 < 4 < 5 < 6 7 > ==
+
+// x= (((1 > 2) < (3 - 4)) > 5) +
+// 1 2 > 3 4 - < 5 >
+
+
+test14 :
+int main() {
+    int x;
+    //cinout << 1 - 2;
+}
+
+// cinout << "hello, world" << endl; 
+// "hello, world" << endl << cinout
+
+//cinout << "hello, world" << endl >> x;
+// "hello, world" << endl << x >> cinout
+
+//cinout << x = 1 - 2;
+// x 1 2 - = << cinout ;
+
+//cinout << 1 - 2;
+// 1 2 - << cinout
+
+test15 :
+

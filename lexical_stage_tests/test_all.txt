@@ -1,0 +1,27 @@
+int t;
+int main() {
+	/* int lkj, yu = -9;
+	int g1 = 4+ 7 -9;
+	t = !(lkj^(6^9*7-18)>g1);
+	int g1 = 8.9 % 3;*/
+	t = 2-9*6/4;
+	int g1 = 3;
+	int y= t^g1;
+	cinout << y << "=" << t << "^" << g1 << " Hello world " << endl << "NICE";
+	cinout << " " << y++ <<" "<< y--;
+	t = 13;
+	do {
+	t=t+10;	
+	}
+	while(t<15);
+	cinout<< endl<< t ;
+/*	int a;
+	
+	for (a+2;5<6; lkj++) g1++;
+
+	for (int i; i<g1; i++) t = true;
+	else cinout << g1;
+	int y;
+	
+	for (y := 1 to 6) t = true;
+	else cinout << g1; */

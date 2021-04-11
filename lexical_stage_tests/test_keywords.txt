@@ -1,0 +1,13 @@
+main
+int
+double
+bool
+true
+false
+do
+while
+if
+else
+for
+cinout
+endl

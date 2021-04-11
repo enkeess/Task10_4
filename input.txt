@@ -1,0 +1,154 @@
+
+int main() {
+
+	int qwe;
+
+	qwe = 1 / 0;
+
+	for(qwe = 1; qwe <= 3; qwe++) {
+		cinout << "qwe = " <<qwe << endl;
+
+		int j = qwe;
+		cinout << "j = "  << j<< endl;
+		while(j >= 0) {
+			cinout << j-- << endl;
+		}
+	}
+	
+	cinout << "test" << endl;
+
+	int x = 1;
+
+	{int x = 2;}
+
+	cinout << x << endl;
+
+	cinout << endl <<"IF" << endl;
+
+	if(x = 5) cinout << "true" << endl;
+
+	cinout << endl << "IF_ELSE" << endl;
+	if(false) cinout<< "true" << endl;
+	else cinout << "false" << endl;
+
+	cinout << endl <<"FOR" << endl;
+
+	for(x = 3; x >= 0; x-- )
+		cinout << "x : " << x << endl;
+	
+	cinout << endl << "WHILE" << endl;
+
+	while(x++ < 5) {
+		cinout << "y : " << x << endl;
+	}
+	
+	do {
+		int x = 5;
+	} while(false);
+
+	x = 0;
+	if(1 || x++) cinout << endl <<"Success" << endl;
+
+	cinout << "x : "  << x << endl;
+
+	if(1 && 0 && x++) cinout << "=(" << endl;
+	else cinout << "=)" << endl;
+	
+	cinout << "x : " << x << endl;
+
+	x = 1;
+	
+	x = 99;
+	cinout << endl << "CMP : " << x == 5 << endl; 
+
+	x = 3;
+
+	if (x == 1) 
+		cinout << "one" << endl;
+	else {
+		if(x == 2) {
+			cinout << "two" << endl; 
+			int x;
+		}
+		else 
+			if(x == 3)
+				cinout << "three" << endl;
+			else 
+				cinout << "unknown" << endl;
+	}
+	
+	cinout << endl << "2 ^ (2 ^ 2)  = " << 2 ^ (2 ^ 2) << endl;
+
+	int a,b;
+	cinout << endl << "a = b = 1 + 1 : " << a = b = 1 + 1 << endl;
+
+	cinout << endl << "a = " << a << " ," << "b = " << b << endl;
+
+	cinout << endl <<(5 + 4 % 2) << endl << endl;
+
+	x = 5;
+	int i, j;
+	for(i = 1; i < 5; i++) {
+		for(j = 1; j < 5; j++) {
+			cinout << i <<" * " << j << " = " << i * j << endl;
+		}
+		cinout << endl;
+	}
+	
+	x = -2;
+	x = x++ + 1 + 2 * 3 - 5 + -5 + (1^0);
+	cinout << x << endl; 
+	
+	cinout << "Factor " << endl;
+	int result = 1;
+	for(i = 1; i < 10; i++) {
+		result = result * i;
+		cinout << "Factor " << i << " = " << result << endl;
+	}
+
+	cinout << endl <<"Fibonachi"  << endl;
+
+	int fib_1 = 1, fib_2 = 2;
+
+	int n = 3;
+
+	while(n < 15) {
+		cinout << "fib " << n++ << " = " << fib_1+fib_2 << endl; 
+		
+		int tmp = fib_1;
+		fib_1 = fib_2;
+		fib_2 = fib_1 + tmp;
+	}
+
+	n = 1;
+
+	cinout << endl <<  "Triangle " << endl;
+	do {
+		for(i = 0; i < n; i++) 
+			cinout << "*";
+		cinout << endl;
+		n++;
+	} while(n <= 5);
+
+	int sum = 0;
+
+	cinout << endl << "Binary" << endl;
+	for(i = 0; i < 10; i++) {
+		sum = sum + 2^i;
+		cinout << i << " : " << sum << endl;
+	}
+
+	do {
+		cinout << endl << "SumOfNumerals of num : "  >> n;
+		int tmp = n;
+		sum = 0;
+
+		while(n > 0) {
+			sum = sum + n % 10;
+			n = n / 10;
+		}
+
+		cinout << "result : " << sum << endl;
+		n = tmp;
+	} while(n != 0);
+}
